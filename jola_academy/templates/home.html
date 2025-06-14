@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Welcome to Employee Management</h1>
+<a href="{% url 'user_auth:home' %}">Login</a>
+<a href="{% url 'employee:dashboard' %}">Dashboard</a>
+{% endblock %}
