@@ -57,7 +57,7 @@ ROOT_URLCONF = 'jola_academy.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [BASE_DIR / 'jola_academy' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
